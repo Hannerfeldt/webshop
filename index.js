@@ -1,6 +1,7 @@
 const { app, port } = require('./src/server')
 const mongoose = require('mongoose')
 const config = require('./config/config')
+const hej = "hej"
 const options = {
     useUnifiedTopology: true,
     useNewUrlParser:true
